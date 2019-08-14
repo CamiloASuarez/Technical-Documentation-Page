@@ -7,82 +7,98 @@
 
 
 /*============== headerlogo ==============*/
-header{
-  height: 8em;
-  background:  #f1f1f1;
-  color: black;
-  font-size:8px;
+span{
+  font-size:22px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 2rem;
+  color: #ffb2dd;
+  font-weight: bold;
 }
-
 #logoheader{
   max-width: 70px;
+  display: block;
+  margin: auto;
+  margin-top: 0.5rem;
+  background: #ffb2dd;
+  border-radius: 8px;
 }
-
 /*================ Sidebar ======================*/
-
 .sidebar {
   margin: 0;
   padding: 0;
   width:210px;
-  background-color: #f1f1f1;
+  background-color:#c94f7c;
   position: fixed;
   height: 100%;
   overflow: auto;
 }
-
 .sidebar a {
   display: block;
   color: black;
   padding: 16px;
   text-decoration: none;
 }
-
 .sidebar a.active {
   background-color: #cf649a;
   color: white;
 }
-
 .sidebar a:hover:not(.active) {
-  background-color: #036;
+  background-color:#ffb2dd;
   color: white;
 }
-
 /*============== Section: General sections =================*/
-
 #main-doc{
   position: absolute;
    margin-left: 210px;
    padding: 20px;
    margin-bottom: 110px;
-   background: pink;
-
 }
-
-
-#main-doc h1{
-  margin: auto;
+ header{
   font-size: 4rem;
-  font-weight: 300;
-  margin-top: 40px;
-  background-color:;
-  color: #6b717f;
+  font-weight:200;
+  color: #669999;
+  text-align: left;
+  margin: auto;
 }
-
 #main-doc p{
-  font-size: 1.75rem;
-  color: #e1a5c5;
-  font-style: oblique;
+  font-size: 1.125rem;
+  color: #6b717f;
   font-weight:lighter;
-  margin-top: 2rem;
+  margin-top: 1.75rem;
+  text-align: justify;
+}
+#main-doc h2{
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-weight: lighter;
+}
+/*===============Code elements ========================*/
+code{
+  color: #31333a;
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  margin-top: 1rem;
+  background-color: #ffb2dd;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 /*============== Section:Introduction =================*/
+#Introduction #intro{
+  color: #cf649a;
+  font-size: 2rem;
+  font-style: oblique;
+}
 
+#Introduction{
 
-
+}
 
 
 
@@ -121,7 +137,7 @@ header{
     position: relative;
   }
   .sidebar a {float: left;}
-  #Introduction {margin-left: 0;}
+  #main-doc{margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {

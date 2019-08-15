@@ -59,7 +59,7 @@ span{
  header{
   font-size: 4rem;
   font-weight:200;
-  color: #669999;
+  color: #ec407a;
   text-align: left;
   margin: auto;
 }
@@ -84,6 +84,9 @@ hr{
 .sections{
   font-size: 2rem;
   font-weight: bold;
+}
+h2{
+  color: #669999;
 }
 /*===============Code elements in p ========================*/
 code{
@@ -148,7 +151,75 @@ code{
 
   box-shadow: 2px 2px 6px #f48fb1;
 }
+/*=================Code examples Import =============================*/
+.example-import{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-content: center;
+  grid-gap: 100px;
+  width: 100%;
+}
 
+.example07, .example08, .example09{
+  background-color:#fce4ec;
+  border-radius: 8px;
+
+  box-shadow: 2px 2px 6px #f48fb1;
+}
+
+#hr_import{
+  background-color:#f8bbd0;
+  border-top: 4px dashed #f50057;
+}
+/*=====================Code examples Mixins ============================*/
+.example-mixins{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-content: center;
+  grid-gap: 100px;
+  width: 100%;
+}
+
+.example10, .example11, .example12{
+  background-color:#fce4ec;
+  border-radius: 8px;
+
+  box-shadow: 2px 2px 6px #f48fb1;
+}
+/*=====================Code example Extend ============================*/
+
+.example-extend{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-content: center;
+  grid-gap: 100px;
+  width: 100%;
+}
+.example13, .example14, .example15{
+  background-color:#fce4ec;
+  border-radius: 8px;
+
+  box-shadow: 2px 2px 6px #f48fb1;
+}
+/*=======================Code example Operators =======================*/
+
+.example-operators{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  justify-content: center;
+  grid-gap: 100px;
+  width: 100%;
+}
+.example16, .example17, .example18{
+  background-color:#fce4ec;
+  border-radius: 8px;
+
+  box-shadow: 2px 2px 6px #f48fb1;
+}
 /*============== Introduction / Intro =================*/
 #Introduction #intro{
   color: #6b9999;
@@ -160,32 +231,18 @@ code{
 
 }
 
+/*====================== FOOTER ===============================*/
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icon ion-heart{
+  color: red;
+}
 
 /*======================= queries =============================*/
 
